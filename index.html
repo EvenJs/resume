@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./css/style.css">
+  <meta name=”viewport” content="width=device-width, initial-scale=1" />
+  <script defer src="./node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+  <link rel="icon" href="./img/nice.png" type="image/x-icon">
+  <title>John Smith</title>
+</head>
+
+<body>
+  <header>
+    <div class="navi"> 
+      <div class="title">John <span>Smith</span></div>
+      <div class="menuWrapper">
+        <ul class="menu">
+          <li class="navi_item active" id="menuHome">Home</li>
+          <li class="navi_item" id="menuResume">Resume</li>
+          <li class="navi_item" id="menuServices">Services</li>
+          <li class="navi_item" id="menuBlog" >Blog</li>
+          <li class="navi_item" id="menuContact">Contact</li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="home" id="homePage">
+      <div class="home__heading">
+        <div class="photoWrapper">
+          <img src="./img/photo.png" alt="John Smith" class="photo">
+        </div>
+        <div class="intro">
+          <p class="intro__name"> John Smith</p>
+          <p class="intro__occupation"> Wed Developer</p>
+          <div class="intro__media">
+            <a href=#><i class="fab fa-facebook-square fa-2x"></i></a>
+            <a href=#><i class="fab fa-twitter-square fa-2x"></i></a>
+            <a href=#><i class="fab fa-instagram-square fa-2x"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="home__content">
+        <div class="home__content__aboutMe">
+          <p class="aboutMe__title">About <span>Me</span></p>
+          <p class="aboutMe__text"> 
+            Hello! I'm John Doe. Lorem ipsum dolor sit amet, 
+            consectetur adipiscing elit. Aenean fermentum 
+            ullamcorper sem, at placerat dolor volutpat ac. 
+            Duis nulla enim, condimentum nec ultricies.
+          </p>
+        </div>
+        <div class="home__content__detail">
+            <ul class="personalInfo">
+              <li> 
+                <p class="personalInfo__key">Age</p> 
+                <p class="personalInfo__value">29</p>
+              </li>
+              <li>
+                <p class="personalInfo__key">Residence</p> 
+                <p class="personalInfo__value">Australia</p>
+              </li>
+              <li>
+                <p class="personalInfo__key">Address</p>
+                <p class="personalInfo__value">Level3 / 57 Coronation Drive, Brisbane</p>
+              </li>
+              <li>
+                <p class="personalInfo__key">E-mail</p>
+                <p class="personalInfo__value">info@jiangren.com.au</p>
+              </li>
+              <li>
+                <p class="personalInfo__key">Phone</p>
+                <p class="personalInfo__value"> +0123 123 456 789</p>
+              </li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="resume hidden" id="resumePage">
+      <div class="page__heading">
+        <p class="page__title">Resume</p>
+      </div>
+      <div class="resume__contentWrapper">
+        <div class="education">
+          <p class="subTitle">Education</p>
+          <div class="education__contentWrapper">
+            <div class="education__block">
+              <div class="education__block__title">
+                Specialization Course
+              </div>
+              <div class="education__block__year">
+                <span class="education__year">2010</span>&nbsp; 
+                <i class="education__divider"></i> &nbsp;
+                <span class="education__company"> Apple Inc.</span>
+              </div>
+              <div class="education__block__info">
+                Mauris magna sapien, pharetra consectetur 
+                fringilla vitae, interdum sed tortor.
+              </div>
+            </div>
+            <div class="education__block">
+              <div class="education__block__title">
+                Specialization Course
+              </div>
+              <div class="education__block__year">
+                <span class="education__year">2010</span>&nbsp; 
+                <i class="education__divider"></i> &nbsp;
+                <span class="education__company"> Apple Inc.</span>
+              </div>
+              <div class="education__block__info">
+                Mauris magna sapien, pharetra consectetur 
+                fringilla vitae, interdum sed tortor.
+              </div>
+            </div>
+            <div class="education__block">
+              <div class="education__block__title">
+                Specialization Course
+              </div>
+              <div class="education__block__year">
+                <span class="education__year">2010</span>&nbsp; 
+                <i class="education__divider"></i> &nbsp;
+                <span class="education__company"> Apple Inc.</span>
+              </div>
+              <div class="education__block__info">
+                Mauris magna sapien, pharetra consectetur 
+                fringilla vitae, interdum sed tortor.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="experience">
+          <p class="subTitle">Experience</p>
+          <div class="experience__contentWrapper">
+            <div class="experience__block">
+              <div class="experience__block__title">
+                Frontend-developer
+              </div>
+              <div class="experience__block__year">
+                <span class="experience__year">Dec 2012 - current</span>&nbsp; 
+                <i class="experience__divider"></i> &nbsp;
+                <span class="experience__company">Web Agency.</span>
+              </div>
+              <div class="experience__block__info">
+                Mauris magna sapien, pharetra consectetur 
+                fringilla vitae, interdum sed tortor.
+              </div>
+            </div>
+            <div class="experience__block">
+              <div class="experience__block__title">
+                Web Designer
+              </div>
+              <div class="experience__block__year">
+                <span class="experience__year">Dec 2011 - Nov 2012</span>&nbsp; 
+                <i class="experience__divider"></i> &nbsp;
+                <span class="experience__company"> Apple Inc.</span>
+              </div>
+              <div class="experience__block__info">
+                Mauris magna sapien, pharetra consectetur 
+                fringilla vitae, interdum sed tortor.
+              </div>
+            </div>
+            <div class="experience__block">
+              <div class="experience__block__title">
+                Graphic Designer
+              </div>
+              <div class="experience__block__year">
+                <span class="experience__year">Jan 2010 - Dec 2011</span>&nbsp; 
+                <i class="experience__divider"></i> &nbsp;
+                <span class="experience__company"> Apple Inc.</span>
+              </div>
+              <div class="experience__block__info">
+                Mauris magna sapien, pharetra consectetur 
+                fringilla vitae, interdum sed tortor.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="resume__skills">
+        <div class="skillWrapper">
+          <div class="subTitle">Design <span>Skills</span> </div>
+          <div class="skill__contentWrapper">
+            <div class="skillBlock"> 
+              <div class="skill__name skill__web">Web Design</div>
+            </div>
+            <div class="skillBlock"> 
+              <div class="skill__name skill__graphic">Graphic Design</div>
+            </div>
+            <div class="skillBlock"> 
+              <div class="skill__name skill__print">Print Design</div>
+            </div>
+          </div>
+        </div>
+        <div class="skillWrapper">
+          <div class="subTitle">Coding <span>Skills</span> </div>
+          <div class="skill__contentWrapper">
+            <div class="skillBlock"> 
+              <div class="skill__name skill__html5">HTML5</div>
+
+            </div>
+            <div class="skillBlock"> 
+              <div class="skill__name skill__css3">CSS3/LESS/SASS</div>
+            </div>
+            <div class="skillBlock"> 
+              <div class="skill__name skill__jquery">jQuery</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="services hidden" id="servicesPage">
+      <div class="page__heading"> 
+        <p class="page__title">Services</p> 
+      </div>
+      <div class="page__contentWrapper">
+        <div class="services__myServices">
+          <p class="myServices__title"> My <span>Services</span></p>
+          <div class="myServices__contentWrapper">
+            <div class="myServices__block">
+              <div class="block__icon">
+                <img src="./img/web_design_icon.png" alt="web_design">
+              </div>
+              <div class="block__title">Web Design</div>
+              <div class="block__text">
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit, sed do eiusmod tempor.
+              </div>
+            </div>
+            <div class="myServices__block">
+              <div class="block__icon">
+                <img src="./img/photography_icon.png" alt="Photography">
+              </div>
+              <div class="block__title">Photography</div>
+              <div class="block__text">
+                Lorem ipsum dolor sit amet, consectetur 
+                adipisicing elit, sed do eiusmod tempor.
+              </div>
+            </div>
+            <div class="myServices__block">
+              <div class="block__icon">
+                <img src="./img/creativity_icon.png" alt="Management">
+              </div>
+              <div class="block__title">Management</div>
+              <div class="block__text">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, sed do eiusmod tempor.
+              </div>
+            </div>
+            <div class="myServices__block">
+              <div class="block__icon">
+                <img src="./img/advertising_icon.png" alt="Advertising">
+              </div>
+              <div class="block__title">Advertising</div>
+              <div class="block__text">
+                Lorem ipsum dolor sit amet, 
+                consectetur adipisicing elit, sed do eiusmod tempor.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="services__clients">
+          <p class="myServices__title">Clients </p>
+          <div class="clients__logoWrapper">
+            <div class="clients__logo">
+              <img src="./img/client.png" alt="client" >
+            </div>
+            <div class="clients__logo">
+              <img src="./img/client.png" alt="client">
+            </div>
+            <div class="clients__logo">
+              <img src="./img/client.png" alt="client">
+            </div>
+            <div class="clients__logo">
+              <img src="./img/client.png" alt="client">
+            </div>
+            <div class="clients__logo">
+              <img src="./img/client.png" alt="client">
+            </div>
+            <div class="clients__logo">
+              <img src="./img/client.png" alt="client">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog hidden" id="blogPage">
+      <div class="page__heading">
+        <p class="page__title"> Blog</p>
+      </div>
+      <div class="page__contentWrapper">  
+        <div class="blog__block">
+          <div class="blog__block__tag">6 DEC</div>
+          <div class="blog__block__image">
+            <img src="./img/blog_post_1.jpg" alt="blog_post">
+          </div>
+          <div class="blog__block__type">Sport</div>
+          <div class="blog__block__title">Designed for Everyone, Everywhere</div>
+
+        </div>
+        <div class="blog__block">
+          <div class="blog__block__tag">3 Nov</div>
+          <div class="blog__block__image">
+            <img src="./img/blog_post_1.jpg" alt="blog_post">
+          </div>
+          <div class="blog__block__type">CSS</div>
+          <div class="blog__block__title">An Introduction To PostCSS</div>
+        </div>
+        <div class="blog__block">
+          <div class="blog__block__tag">12 Oct</div>
+          <div class="blog__block__image">
+            <img src="./img/blog_post_1.jpg" alt="blog_post">
+          </div>
+          <div class="blog__block__type">CSS3</div>
+          <div class="blog__block__title">Original and Innovative Web Layouts</div>
+        </div>
+        <div class="blog__block">
+          <div class="blog__block__tag">18 Aug</div>
+          <div class="blog__block__image">
+            <img src="./img/blog_post_1.jpg" alt="blog_post">
+          </div>
+          <div class="blog__block__type">HTML5</div>
+          <div class="blog__block__title">Creative and Innovative Navigation Designs</div>
+        </div>
+        <div class="blog__block">
+          <div class="blog__block__tag">2 Jul</div>
+          <div class="blog__block__image">
+            <img src="./img/blog_post_1.jpg" alt="blog_post">
+          </div>
+          <div class="blog__block__type">Travel</div>
+          <div class="blog__block__title">Bootstrap is the Most Popular Framework</div>
+        </div>
+        <div class="blog__block">
+          <div class="blog__block__tag">8 May</div>
+          <div class="blog__block__image">
+            <img src="./img/blog_post_1.jpg" alt="blog_post">
+          </div>
+          <div class="blog__block__type">jQuery</div>
+          <div class="blog__block__title">One FrameWork, Every Device</div>
+        </div>
+      </div>
+    </div>
+    <div class="contact hidden" id="contactPage">
+      <div class="page__heading">
+        <p class="page__title"> Contact</p>
+      </div>
+      <div class="page__contentWrapper">
+        <dir class="addressWrapper">
+          <div class="subTitle">Get in<span>Touch</span></div>
+          <div class="address__map">
+            <iframe class="google__map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13400.61968642715!2d151.692139!3d-32.894072!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b733fd3ca1c92dd%3A0x4f4347dce1ae8b20!2s8%20Lee%20Cres%2C%20Birmingham%20Gardens%20NSW%202287!5e0!3m2!1sen!2sau!4v1627530307994!5m2!1sen!2sau" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+          <div class="address__contactInfo">
+            <ul>
+              <li><i class="fas fa-map-marker-alt icon__background"></i><span>Brisbane, Australia</span></li>
+              <li><i class="fas fa-envelope icon__background"></i><span>info@jiangren.com.au</span></li>
+              <li><i class="fas fa-phone-alt icon__background"></i><span>+123 654 78900</span></li>
+              <li><i class="fas fa-check icon__background"></i><span>Freelance Available</span></li>
+            </ul>
+          </div></span>
+        </dir>
+        <div class="formWrapper">
+          <div class="subTitle">Contact <span>Form</span></div>
+          <form>
+            <label for="name">Full Name </label>
+            <input type="text"><br>
+            <label for="address"> Address</label>
+            <input type="email"><br>
+            <label for="message">Message </label>
+            <textarea></textarea>><br>
+          </form>
+          <div>
+            sad
+
+          </div>
+          <button class="sendButton">Send Message</button>
+
+
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <script defer src="./js/navi.js" ></script>
+  </footer>  
+</body>
+</html>
