@@ -360,19 +360,35 @@
         </dir>
         <div class="formWrapper">
           <div class="subTitle">Contact <span>Form</span></div>
-          <form>
+          
+         <!-- <form   action="https://formspree.io/f/mpzkygkd" method="POST">
             <label for="name">Full Name </label>
-            <input type="text"><br>
-            <label for="address"> Address</label>
-            <input type="email"><br>
-            <label for="message">Message </label>
-            <textarea></textarea>><br>
-          </form>
-          <div>
-            sad
-
+            <input name="text" required><br>
+            <label for="Email"> Email</label>
+            <input name="email" required><br>
+            <label for="message" >Message </label>
+            <textarea required></textarea>><br>
+            <button type="submit" class="sendButton" value="submit">Send Message</button>
+          </form>-->
+          <div class="formContent" action="http://localhost:8888/form/validate" method="post">
+            <div class="formInput  ">
+              <div class="formInput__label">Name:</div>
+              <input type="text" required name="Name"> 
+            </div>
+            <div class="formInput ">
+              <div class="formInput__label"> Email:</div>
+              <input type="email" required name="Email">
+            </div>
+            <div class="formInput ">
+              <div class="formInput__label"> Message: </div>
+              <textarea type="text" required name="Message"> </textarea>
+            </div>
+            <button class="sendButton" type="submit" >Send</button>
           </div>
-          <button class="sendButton">Send Message</button>
+          
+          
+
+         
 
 
 

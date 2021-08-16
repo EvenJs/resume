@@ -11,7 +11,7 @@ body {
   max-width: 1200px;
   min-width: 400px;
   margin: 0 auto;
-  background-image: url("./img/main_bg.png");
+  background-image: url("../img/main_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -212,6 +212,7 @@ span {
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10%;
 }
 .resume__contentWrapper {
   display: flex;
@@ -464,6 +465,7 @@ span {
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10%;
 }
 .blog .page__contentWrapper {
   display: flex;
@@ -517,13 +519,13 @@ span {
   display: flex;
   flex-wrap: wrap;
   margin-top: 2%;
+  justify-content: space-evenly;
 }
 .contact .page__contentWrapper .addressWrapper {
   justify-content: center;
   width: 45%;
   text-align: left;
-  padding-right: 5%;
-  min-width: 300px;
+  min-width: 310px;
   max-width: 390px;
   margin-top: 0;
 }
@@ -551,29 +553,34 @@ span {
   font-size: small;
 }
 .contact .page__contentWrapper .formWrapper {
-  width: 50%;
+  width: 45%;
   text-align: left;
   position: relative;
-  margin: 0 auto;
-  min-width: 300px;
+  margin-left: 5%;
+  min-width: 310px;
   max-width: 390px;
 }
-.contact .page__contentWrapper .formWrapper form {
-  margin-top: 4%;
+.contact .page__contentWrapper .formWrapper .formContent .formInput {
+  margin: 2% 0;
 }
-.contact .page__contentWrapper .formWrapper label {
-  padding: 2% 0;
-  margin: 0 auto;
-  display: inline-block;
-  min-width: 100px;
+.contact .page__contentWrapper .formWrapper .formContent .formInput__label {
+  font-weight: bold;
+  margin-bottom: 1%;
 }
-.contact .page__contentWrapper .formWrapper input {
+.contact .page__contentWrapper .formWrapper .formContent .formInput input {
+  width: 80%;
+  background-color: aquamarine;
   border: none;
-  border-bottom: darkgray solid 3px;
+  border-radius: 5px;
+  line-height: 20px;
 }
-.contact .page__contentWrapper .formWrapper textarea {
+.contact .page__contentWrapper .formWrapper .formContent .formInput textarea {
+  width: 80%;
+  background-color: aquamarine;
   border: none;
-  border-bottom: darkgray solid 3px;
+  border-radius: 5px;
+  line-height: 30px;
+  margin-bottom: 30%;
 }
 .contact .page__contentWrapper .formWrapper .sendButton {
   background-color: var(--dark-green);

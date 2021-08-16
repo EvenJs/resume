@@ -12,7 +12,7 @@ body {
   max-width: 1200px;  
   min-width: 400px;
   margin: 0 auto;
-  background-image:url("./img/main_bg.png");
+  background-image:url("../img/main_bg.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; 
@@ -247,6 +247,7 @@ span{
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10%;
 
   &__contentWrapper {
     display: flex;
@@ -545,6 +546,7 @@ span{
   border-radius: 5px;
   overflow: hidden;
   box-shadow: 0px 18px 24px rgba(0, 0, 0, 0.15);
+  margin-bottom: 10%;
 
   .page__contentWrapper {
     display: flex;
@@ -606,15 +608,16 @@ span{
     flex-wrap: wrap;
     //justify-content: space-evenly;
     margin-top: 2%;
+    justify-content: space-evenly;
 
 
     .addressWrapper {
       justify-content: center;
       width: 45%;
       text-align: left;
-      padding-right: 5%;
+      //padding-right: 5%;
       //margin: 0 auto;
-      min-width: 300px;
+      min-width: 310px;
       max-width: 390px;
       margin-top: 0;
       
@@ -650,36 +653,45 @@ span{
     }
 
     .formWrapper {
-      width: 50%;
+      width: 45%;
       text-align: left;
       position: relative;
-      margin: 0 auto;
-      min-width: 300px;
+      margin-left: 5%;
+      min-width: 310px;
       max-width: 390px;
       
-      form{
-        margin-top: 4%;
-      }
+      .formContent{
+        //border: #49515d solid 2px;
+        
+        .formInput{
+          margin: 2% 0;
+          //display: flex;
+          &__label{
+            font-weight: bold;
+            margin-bottom: 1%;
+          }
 
-      label {
-        padding: 2% 0;
-        margin: 0 auto;
-        display: inline-block;
-        min-width: 100px;
-      }
+          input{
+            //border: none;
+            width: 80%;
+            background-color: aquamarine;
+            border: none;
+            border-radius: 5px;
+            line-height: 20px;
+          }
+          textarea {
+            width: 80%;
+            background-color: aquamarine;
+            border: none;
+            border-radius: 5px;
+            line-height: 30px;
+            margin-bottom: 30%;
+          }
 
-      input {
-        border: none;
-        border-bottom: darkgray solid 3px;
-      }
-
-      textarea {
-        border: none;
-        border-bottom: darkgray solid 3px;
+        }
       }
 
       .sendButton {
-        
         background-color: var(--dark-green);
         border: none;
         border-radius: 5%;
